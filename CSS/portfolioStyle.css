@@ -1,0 +1,211 @@
+@font-face {
+  font-family: steelfish;
+  src: url(../Assets/Fonts/steelfish/steelfish.ttf);
+}
+@font-face {
+  font-family: bebasNeue;
+  src: url(../Assets/Fonts/bebas_neue/BebasNeue-Regular.ttf);
+}
+body {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	overflow-x: hidden;
+	background-color: #3DD9D9;
+	transition-duration: 0.5s;
+}
+.sticky {
+	position: fixed;
+	top: 0;
+	box-shadow: 0 0px 10px gray;
+}
+.topBanner {
+	background-color: black;
+	text-align: center;
+	width: 100vw;
+	padding: 0.45rem;
+	border-bottom: 0.05rem solid gray;
+}
+.topBanner h1 {
+	color: white;
+	font-size: 5rem;
+	margin-bottom: 0.2rem;
+	letter-spacing: -0.1rem;
+	margin-top: 0;
+}
+.topBanner h2 {
+	color: lightGray;
+	font-family: bebasNeue;
+	margin-top: 0.1rem;
+	margin-bottom: 0.5rem;
+	font-weight: 0.1;
+}
+header nav {
+	background-color: #3DD9D9;
+	box-sizing: border-box;
+	display: inline-block;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	text-align: center;
+	padding: 0.5rem;
+	width: 100vw;
+	position: sticky;
+	top: 0;
+	z-index: 100;
+}
+header nav ul {
+	display: inline-block;
+	padding: 0;
+	padding: 0rem 1rem;
+	margin: 0;
+	border-right: 0.05rem solid black;
+
+}
+header nav ul.last{
+	border-right: none;
+}
+header nav h3 {
+	font-family: bebasNeue;
+	font-size: 1.2rem;
+	letter-spacing: 0.2rem;
+	padding: 0;
+	margin: 0;
+}
+header nav h3:hover {
+	cursor: pointer;
+	color: white;
+}
+
+
+.backgroundTop {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 300px;
+  width: 100vw;
+  background-color: black;
+}
+.backgroundTop:after {
+  transform-origin: bottom right;
+  transform: skewY(7deg);
+  -webkit-tranform: skewY(8deg);
+  content: '';
+  position: absolute;
+  top: 350px;
+  left: 0;
+  height: 198px;
+  width: 50%;
+  background-color: black;
+  border-bottom: 10px solid darkGray;
+  box-shadow: -6px 5px 5px #222;
+}
+.backgroundTop:before {
+    transform-origin: bottom left;
+  transform: skewY(-7deg);
+  -webkit-tranform: skewY(-8deg);
+  content: '';
+  position: absolute;
+  top: 350px;
+  right: 0;
+  height: 198px;
+  width: 50%;
+  background-color: black;
+  border-bottom: 10px solid darkGray;
+  box-shadow: -6px 5px 5px #222;
+}
+.index .backgroundTop {
+	color: #3DD9D9;
+	font-family: steelfish;
+	text-align: center;
+	padding: 2rem 0;
+}
+.index .backgroundTop h1 {
+	color: #A0D9A9;
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
+    margin: 0;
+    font-weight: 100;
+}
+.index .backgroundTop img {
+	width: 12rem;
+	position: relative;
+	top: -0.8rem;
+}
+.index .backgroundTop p {
+	font-family: bebasNeue;
+	z-index: 3;
+	font-size: 1.6rem;
+	position: relative;
+	width: 60vw;
+	left: 20vw;
+}
+.index .backgroundTop p span.list {
+	font-size: 1.4rem;
+	color: #A0D9A9;
+}
+.index .backgroundTop p span.pink {
+/*	color: #A64E46;*/
+}
+.myWork {
+	position: relative;
+	top: 12rem;
+	color: black;
+    font-size: 2rem;
+  	display: grid;
+  	text-align: center;
+
+}
+.myWork h1 {
+	letter-spacing: 0.3rem;
+    margin: 0;
+    font-weight: 100;
+    color: black;
+	font-family: steelfish;
+	text-align: center;
+	padding: 2rem 0;
+}
+.index .myWork img.lines {
+    width: 14rem;
+    position: relative;
+    top: -2.4rem;
+    left: calc(50vw - 7rem);
+}
+.myWork .workArticle {
+	position: relative;
+	width: 60vw;
+	left: 20vw;
+	border-bottom: 5px dashed black;
+	margin-bottom: 2rem;
+}
+.myWork .workArticle h3 {
+	font-family: steelfish;
+	letter-spacing: 0.2rem;
+	margin-top: 0;
+}
+.myWork .workArticle p {
+	font-family: bebasNeue;
+	font-weight: 100;
+	font-size: 1.6rem;
+}
+.workArticle .image:hover {
+	cursor: pointer;
+	box-shadow: 0 0 10px 5px black;
+	transform: scale(1.01);
+}
+#compCalc .image {
+	background-image: url('../Assets/compCalcImage.png');
+	background-size: cover;
+	position: relative;
+	width: 40vw;
+	left: 10vw;
+	height: 26rem;
+	margin-bottom: 2rem;
+	transition-duration: 0.2s;
+}
+
+.myWork .image p {
+	font-size: 4rem;
+	position: relative;
+	top: calc(50% - 2rem);
+	text-shadow: 0 0 white;
+}

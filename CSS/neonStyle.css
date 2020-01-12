@@ -1,0 +1,436 @@
+@font-face {
+	font-family: grandHotel;
+	src: url(../Assets/Fonts/grand-hotel/GrandHotel-Regular.ttf);
+}
+.neon {
+	color: white;
+	font-family: 'grandHotel', cursive;
+	font-size: 6em;
+	position: relative;
+	top: calc(50% - 2em);
+	text-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;	
+	animation-name: flicker;
+	animation-duration: 7.4s;
+	transition: none;
+	animation-iteration-count: infinite;
+}
+
+.neon::before {
+	content: '';
+	width: 22rem;
+	height: 7px;
+	border-radius: 50px;
+	position: absolute;
+	top: calc(50% + 2rem);
+	left: calc(50vw - 10rem);
+	background-color: white;
+	box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8)
+		0 0 50px #4666FF ,
+		0 0 20px #4666FF ;
+	z-index: 2;
+	animation-name: boxFlicker;
+	animation-duration: 7.4s;
+	transition: none;
+	animation-iteration-count: infinite;
+}
+
+@keyframes flicker {
+	0% {color: white;
+		text-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;}
+	1% {
+		color: #333333;
+		text-shadow: none;
+	}
+	2% {
+		color: white;
+		text-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+	}
+	11% {color: white;
+		text-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;}
+	12% {
+		color: #333333;
+		text-shadow: none;
+	}
+	14% {
+		color: #333333;
+		text-shadow: none;
+	}
+	15% {
+		color: white;
+		text-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+	}
+	22% {color: white;
+		text-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;}
+	22.5% {
+		color: #333333;
+		text-shadow: none;
+	}
+
+	23% {
+		color: white;
+		text-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+	}
+	50% {
+		color: white;
+		text-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+	}
+	50.5% {
+		color: #333333;
+		text-shadow: none;
+	}
+	54.5% {
+		color: #333333;
+		text-shadow: none;
+	}
+	55% {
+		color: white;
+		text-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+	}
+	75% {
+		color: white;
+		text-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+	}
+	75.5% {
+		color: #333333;
+		text-shadow: none;
+	}
+	77% {
+		color: #333333;
+		text-shadow: none;
+	}
+	77.5% {
+		color: white;
+		text-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+	}
+	80% {
+		color: white;
+		text-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+	}
+	80.5% {
+		color: #333333;
+		text-shadow: none;
+	}
+	81% {
+		color: white;
+		text-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+	}
+}
+@keyframes boxFlicker {
+	0% {background-color: white;
+		box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+		-webkit-box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+		-moz-box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+	}
+	0.5% {
+		background-color: #333333;
+		box-shadow: none;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+	}
+	1% {
+		background-color: white;
+		box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+		-webkit-box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+		-moz-box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+	}
+	11% {background-color: white;
+		box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+		-webkit-box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+		-moz-box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+	}
+	11.5% {
+		background-color: #333333;
+		box-shadow: none;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+	}
+	12% {
+		background-color: #333333;
+		box-shadow: none;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+	}
+	12.5% {
+		background-color: white;
+		box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+		-webkit-box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+		-moz-box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+	}
+	14% {background-color: white;
+		box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+		-webkit-box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+		-moz-box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+	}
+	14.5% {
+		background-color: #333333;
+		box-shadow: none;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+	}
+	15% {
+		background-color: white;
+		box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+		-webkit-box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+		-moz-box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+	}
+	15.5% {
+		background-color: white;
+		box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+		-webkit-box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+		-moz-box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+	}
+	16% {
+		background-color: #333333;
+		box-shadow: none;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+	}
+	16.5% {
+		background-color: white;
+		box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+		-webkit-box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+		-moz-box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+	}
+	50% {
+		background-color: white;
+		box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+		-webkit-box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+		-moz-box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+	}
+	50.5% {
+		background-color: #333333;
+		box-shadow: none;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+	}
+	51% {
+		background-color: white;
+		box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+		-webkit-box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+		-moz-box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+	}
+	75% {
+		background-color: white;
+		box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+		-webkit-box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+		-moz-box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+	}
+	75.5% {
+		background-color: #333333;
+		box-shadow: none;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+	}
+	77% {
+		background-color: #333333;
+		box-shadow: none;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+	}
+	77.5% {
+		background-color: white;
+		box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+		-webkit-box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+		-moz-box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+	}
+	80% {
+		background-color: white;
+		box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+		-webkit-box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+		-moz-box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+	}
+	80.5% {
+		background-color: #333333;
+		box-shadow: none;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+	}
+	81% {
+		background-color: white;
+		box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+		-webkit-box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+		-moz-box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+	}
+	100%{
+		background-color: white;
+		box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+		-webkit-box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+		-moz-box-shadow: 
+		0 0 100px rgba(255, 0, 178, 0.8),
+		0 0 50px rgba(255, 0, 178, 0.9),
+		0 0 20px #4666FF ;
+	}
+
+}
