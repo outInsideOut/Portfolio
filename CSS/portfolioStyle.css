@@ -62,7 +62,7 @@ header nav ul {
 	border-right: 0.05rem solid black;
 
 }
-header nav ul.last{
+header nav ul#last{
 	border-right: none;
 }
 header nav h3 {
