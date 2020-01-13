@@ -42,6 +42,6 @@ $(document).ready(function(){
 		if (this.checked) {
 			$('.index').css('background-color', '#333')
 			console.log("checked");
-		} else { $('.index').css('background-color', '#3DD9D9')}
+		} else { $('.index').css('background-color', '#efefef')}
 	});
 });

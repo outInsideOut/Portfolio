@@ -11,7 +11,7 @@ body {
 	padding: 0;
 	width: 100vw;
 	overflow-x: hidden;
-	background-color: #3DD9D9;
+	background-color: #efefef;
 	transition-duration: 0.5s;
 }
 .sticky {
@@ -115,7 +115,7 @@ header nav h3:hover {
   box-shadow: -6px 5px 5px #222;
 }
 .index .backgroundTop {
-	color: #3DD9D9;
+	color: #efefef;
 	font-family: steelfish;
 	text-align: center;
 	padding: 2rem 0;
@@ -175,7 +175,7 @@ header nav h3:hover {
 	position: relative;
 	width: 60rem;
 	left: calc(50vw - 30rem);
-	border-bottom: 5px dashed black;
+	border-bottom: 5px dashed #3DD9D9;
 	margin-bottom: 2rem;
 }
 .myWork .workArticle h3 {
