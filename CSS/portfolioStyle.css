@@ -20,7 +20,7 @@ body {
 	box-shadow: 0 0px 10px gray;
 }
 .topBanner {
-	background-color: black;
+	background-color: #222;
 	text-align: center;
 	width: 100vw;
 	padding: 0.45rem;
@@ -32,6 +32,7 @@ body {
 	margin-bottom: 0.2rem;
 	letter-spacing: -0.1rem;
 	margin-top: 0;
+	z-index: 3;
 }
 .topBanner h2 {
 	color: lightGray;
@@ -83,7 +84,7 @@ header nav h3:hover {
   left: 0;
   height: 300px;
   width: 100vw;
-  background-color: black;
+  background-color: #222;
 }
 .backgroundTop:after {
   transform-origin: bottom right;
@@ -95,7 +96,7 @@ header nav h3:hover {
   left: 0;
   height: 198px;
   width: 50%;
-  background-color: black;
+  background-color: #222;
   border-bottom: 10px solid darkGray;
   box-shadow: -6px 5px 5px #222;
 }
@@ -109,7 +110,7 @@ header nav h3:hover {
   right: 0;
   height: 198px;
   width: 50%;
-  background-color: black;
+  background-color: #222;
   border-bottom: 10px solid darkGray;
   box-shadow: -6px 5px 5px #222;
 }
@@ -172,8 +173,8 @@ header nav h3:hover {
 }
 .myWork .workArticle {
 	position: relative;
-	width: 60vw;
-	left: 20vw;
+	width: 60rem;
+	left: calc(50vw - 30rem);
 	border-bottom: 5px dashed black;
 	margin-bottom: 2rem;
 }
@@ -183,9 +184,20 @@ header nav h3:hover {
 	margin-top: 0;
 }
 .myWork .workArticle p {
-	font-family: bebasNeue;
-	font-weight: 100;
+	font-family: steelfish;
+	font-weight: 500;
 	font-size: 1.6rem;
+}
+.workArticle .image {
+	background-size: cover;
+	background-position: center;
+	width: 50rem;
+	top: -1rem;
+	left: calc(50% - 25rem);
+	height: 26rem;
+	position: relative;
+	margin-bottom: 2rem;
+	transition-duration: 0.2s;
 }
 .workArticle .image:hover {
 	cursor: pointer;
@@ -194,18 +206,25 @@ header nav h3:hover {
 }
 #compCalc .image {
 	background-image: url('../Assets/compCalcImage.png');
-	background-size: cover;
-	position: relative;
-	width: 40vw;
-	left: 10vw;
-	height: 26rem;
-	margin-bottom: 2rem;
-	transition-duration: 0.2s;
 }
-
+#proGlide .image {
+	background-image: url('../Assets/proGlideImage.png');
+}
 .myWork .image p {
 	font-size: 4rem;
 	position: relative;
 	top: calc(50% - 2rem);
 	text-shadow: 0 0 white;
+}
+#sudokuSolver .image {
+	top: 0;
+	left: calc(50% - 10rem);
+}
+#sudokuSolver .image, #sudokuSolver video {
+	width: 20rem;
+	height: 20rem;
+}
+#sudokuSolver .image p {
+	top: calc(-83% - 0rem);
+    text-shadow: 0 0 10px white;
 }

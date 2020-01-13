@@ -31,6 +31,12 @@ $(document).ready(function(){
 	$('#compCalc .image').click(function(){
 		window.open('https://codepen.io/outInsideout/full/RJBbQw', '_blank');
 	});
+	$('#proGlide .image').click(function(){
+		window.open('https://outinsideout.github.io/Proglidehomepage/index.html', '_blank');
+	});
+	$('#sudokuSolver .image').click(function() {
+		window.open('https://github.com/outInsideOut/SudokuSolver', '_blank');
+	});
 	$('#checkbox').click(function(){
 		console.log("checked");
 		if (this.checked) {
