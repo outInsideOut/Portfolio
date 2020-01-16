@@ -205,8 +205,8 @@ header nav h3:hover {
 	transform: scale(1.01);
 }
 #MTA img {
-	height: 400px;
-	width: 400px;
+	height: 300px;
+	width: 300px;
 }
 #compCalc .image {
 	background-image: url('../Assets/compCalcImage.png');
