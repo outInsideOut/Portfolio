@@ -28,6 +28,9 @@ $(document).ready(function(){
 			$('nav').removeClass('sticky')
 		};
 	});
+	$('#BST .image').click(function(){
+		window.open('https://github.com/outInsideOut/CPP_tree', '_blank');
+	});
 	$('#compCalc .image').click(function(){
 		window.open('https://codepen.io/outInsideout/full/RJBbQw', '_blank');
 	});

@@ -204,9 +204,13 @@ header nav h3:hover {
 	box-shadow: 0 0 10px 5px black;
 	transform: scale(1.01);
 }
-#MTA img {
-	height: 300px;
-	width: 300px;
+#MTA img, #BST .image {
+	height: 20rem;
+	width: 20rem;
+}
+#BST .image {
+	background-image: url('../Assets/tree.gif');
+	left: calc(50% - 10rem);
 }
 #compCalc .image {
 	background-image: url('../Assets/compCalcImage.png');
@@ -218,7 +222,7 @@ header nav h3:hover {
 	font-size: 4rem;
 	position: relative;
 	top: calc(50% - 2rem);
-	text-shadow: 0 0 white;
+	text-shadow: 0 0 10px white;
 }
 #sudokuSolver .image {
 	top: 0;
@@ -230,5 +234,4 @@ header nav h3:hover {
 }
 #sudokuSolver .image p {
 	top: calc(-83% - 0rem);
-    text-shadow: 0 0 10px white;
 }
