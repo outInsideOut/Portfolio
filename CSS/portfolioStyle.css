@@ -204,9 +204,13 @@ header nav h3:hover {
 	box-shadow: 0 0 10px 5px black;
 	transform: scale(1.01);
 }
-#MTA img, #BST .image {
+#MTA img, #BST .image, #Timer .image {
 	height: 20rem;
 	width: 20rem;
+}
+#Timer .image {
+	background-image: url('../Assets/stopwatch_c.gif');
+	left: calc(50% - 10rem);
 }
 #BST .image {
 	background-image: url('../Assets/tree.gif');

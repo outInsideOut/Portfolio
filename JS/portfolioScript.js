@@ -28,6 +28,9 @@ $(document).ready(function(){
 			$('nav').removeClass('sticky')
 		};
 	});
+	$('#Timer .image').click(function(){
+		window.open('https://github.com/outInsideOut/Timers---A-CPP-Static-Library', '_blank');
+	});
 	$('#BST .image').click(function(){
 		window.open('https://github.com/outInsideOut/CPP_tree', '_blank');
 	});
