@@ -28,6 +28,9 @@ $(document).ready(function(){
 			$('nav').removeClass('sticky')
 		};
 	});
+	$('#SmartSudoku .image').click(function() {
+		window.open('https://github.com/outInsideOut/SmartSudoku', '_blank');
+	});
 	$('#Timer .image').click(function(){
 		window.open('https://github.com/outInsideOut/Timers---A-CPP-Static-Library', '_blank');
 	});
