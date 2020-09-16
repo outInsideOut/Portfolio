@@ -28,6 +28,9 @@ $(document).ready(function(){
 			$('nav').removeClass('sticky')
 		};
 	});
+	$('#RasPiMC .image').click(function() {
+		window.open('https://github.com/outInsideOut/Raspi4_MinecraftServer', '_blank');
+	});
 	$('#SmartSudoku .image').click(function() {
 		window.open('https://github.com/outInsideOut/SmartSudoku', '_blank');
 	});
