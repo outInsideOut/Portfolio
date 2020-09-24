@@ -44,7 +44,7 @@ $(document).ready(function(){
 		window.open('https://codepen.io/outInsideout/full/RJBbQw', '_blank');
 	});
 	$('#proGlide .image').click(function(){
-		window.open('https://outinsideout.github.io/Proglidehomepage/index.html', '_blank');
+		window.open('https://proglidelincoln.com', '_blank');
 	});
 	$('#sudokuSolver .image').click(function() {
 		window.open('https://github.com/outInsideOut/SudokuSolver', '_blank');
