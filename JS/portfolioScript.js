@@ -28,6 +28,9 @@ $(document).ready(function(){
 			$('nav').removeClass('sticky')
 		};
 	});
+	$('#last').click(function() {
+		window.open('https://outinsideout.github.io/Portfolio/cv.html', '_blank');
+	});
 	$('#RasPiMC .image').click(function() {
 		window.open('https://github.com/outInsideOut/Raspi4_MinecraftServer', '_blank');
 	});
