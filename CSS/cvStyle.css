@@ -1,0 +1,53 @@
+@font-face {
+	font-family: moonglade;
+	src: url(../Assets/fonts/moonglade-font/moonglade.ttf);
+}
+@font-face {
+	font-family: colombia;
+	src:  url(../Assets/fonts/colombia-font/Colombia.ttf);
+}
+@font-face {
+	font-family: josefin;
+	src: url(../Assets/fonts/josefin-sans-font/JosefinSans.ttf);
+}
+
+#cV {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	background-image: url(../Assets/paper.jpeg);
+	font-family: josefin;
+}
+#cvContainer {
+	padding: 4rem;
+}
+h1, h2, h3, h4 {
+	font-family: Moonglade;
+	text-decoration: underline;
+	color: #571111;
+	padding-bottom: 0;
+	margin-bottom: 0.4rem;
+}
+p {
+	margin: 0;
+}
+pre {
+	display: wrap;
+	flex-wrap: wrap;
+
+	width: 100%;
+}
+.dates {
+	font-size: 0.9rem;
+}
+.yrTitle {
+	font-size: 0.8rem;
+}
+
+@media screen and (orientation: landscape) {
+	#cvContainer {
+		width: 60%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
