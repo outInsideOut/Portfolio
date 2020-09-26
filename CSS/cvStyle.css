@@ -1,14 +1,14 @@
 @font-face {
 	font-family: moonglade;
-	src: url(../Assets/fonts/moonglade-font/moonglade.ttf);
+	src: url(../Assets/Fonts/moonglade-font/moonglade.ttf);
 }
 @font-face {
 	font-family: colombia;
-	src:  url(../Assets/fonts/colombia-font/Colombia.ttf);
+	src:  url(../Assets/Fonts/colombia-font/Colombia.ttf);
 }
 @font-face {
 	font-family: josefin;
-	src: url(../Assets/fonts/josefin-sans-font/JosefinSans.ttf);
+	src: url(../Assets/Fonts/josefin-sans-font/JosefinSans.ttf);
 }
 
 #cV {
