@@ -204,10 +204,13 @@ header nav h3:hover {
 	box-shadow: 0 0 10px 5px black;
 	transform: scale(1.01);
 }
-#MTA img, #BST .image, #Timer .image, #RasPiMC .image, #SmartSudoku .image {
+#fractions .image, #MTA img, #BST .image, #Timer .image, #RasPiMC .image, #SmartSudoku .image {
 	height: 20rem;
 	width: 20rem;
 	left: calc(50% - 10rem);
+}
+#fractions .image {
+	background-image: url('../Assets/rationals.gif');
 }
 #RasPiMC .image {
 	background-image: url('../Assets/rpi.jpg');

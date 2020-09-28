@@ -31,8 +31,11 @@ $(document).ready(function(){
 	$('#last').click(function() {
 		window.open('https://outinsideout.github.io/Portfolio/cv.html', '_blank');
 	});
+	$('#fractions .image').click(function() {
+		window.open('https://github.com/outInsideOut/fractions', '_blank');
+	});
 	$('#RasPiMC .image').click(function() {
-		window.open('https://github.com/outInsideOut/Raspi4_MinecraftServer', '_blank');
+		window.open('https://github.com/outInsideOut/RaspberryPiMinecraft', '_blank');
 	});
 	$('#SmartSudoku .image').click(function() {
 		window.open('https://github.com/outInsideOut/SmartSudoku', '_blank');
