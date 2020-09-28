@@ -28,9 +28,16 @@ $(document).ready(function(){
 			$('nav').removeClass('sticky')
 		};
 	});
-	$('#last').click(function() {
+	$('nav > .3').click(function() {
 		window.open('https://outinsideout.github.io/Portfolio/cv.html', '_blank');
 	});
+	$('nav > .4').click(function() {
+		window.open('https://github.com/outInsideOut', '_blank');
+	});
+	$('nav > .5').click(function() {
+		window.open('https://www.linkedin.com/in/fionn-o-connor-a117071b7/', '_blank');
+	});
+	
 	$('#fractions .image').click(function() {
 		window.open('https://github.com/outInsideOut/fractions', '_blank');
 	});
