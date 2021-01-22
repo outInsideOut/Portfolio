@@ -207,6 +207,12 @@ header nav h3:hover {
 	width: 20rem;
 	left: calc(50% - 10rem);
 }
+#dreamingSpires .image {
+	background-image: url(../Assets/ds.png);
+}
+#linux .image {
+	background-image: url(../Assets/terminal.gif);
+}
 #fractions .image {
 	background-image: url('../Assets/rationals.gif');
 }

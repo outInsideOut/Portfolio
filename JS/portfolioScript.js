@@ -37,7 +37,9 @@ $(document).ready(function(){
 	$('nav > .5').click(function() {
 		window.open('https://www.linkedin.com/in/fionn-o-connor-a117071b7/', '_blank');
 	});
-	
+	$('#dreamingSpires .image').click(function() {
+		window.open('https://dreamingspires.dev', '_blank');
+	});
 	$('#fractions .image').click(function() {
 		window.open('https://github.com/outInsideOut/fractions', '_blank');
 	});
