@@ -186,7 +186,7 @@ header nav h3:hover {
 	font-weight: 500;
 	font-size: 1.6rem;
 }
-.workArticle .image {
+.workArticle .IMage {
 	background-size: cover;
 	background-position: center;
 	width: 50rem;
@@ -207,43 +207,62 @@ header nav h3:hover {
 	width: 20rem;
 	left: calc(50% - 10rem);
 }
+
+#SpectralCompressor .image {
+	background-image: url(../Assets/compressor_example.png);
+}
+
+#ChadPi .image {
+	background-image: url(../Assets/chadPi.png);
+}
+
 #dreamingSpires .image {
 	background-image: url(../Assets/ds.png);
 }
+
 #linux .image {
 	background-image: url(../Assets/terminal.gif);
 }
+
 #fractions .image {
 	background-image: url('../Assets/rationals.gif');
 }
+
 #RasPiMC .image {
 	background-image: url('../Assets/rpi.jpg');
 	left: calc(50% - 10rem);
 }
+
 #Timer .image {
 	background-image: url('../Assets/stopwatch_c.gif');
 	left: calc(50% - 10rem);
 }
+
 #BST .image {
 	background-image: url('../Assets/tree.gif');
 	left: calc(50% - 10rem);
 }
+
 #compCalc .image {
 	background-image: url('../Assets/compCalcImage.png');
 }
+
 #proGlide .image {
 	background-image: url('../Assets/proGlideImage.png');
 }
+
 .myWork .image p {
 	font-size: 4rem;
 	position: relative;
 	top: calc(50% - 2rem);
 	text-shadow: 0 0 10px white;
 }
+
 #sudokuSolver .image {
 	top: 0;
 	left: calc(50% - 10rem);
 }
+
 #sudokuSolver .image, #sudokuSolver video {
 	width: 20rem;
 	height: 20rem;
