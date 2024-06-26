@@ -37,6 +37,9 @@ $(document).ready(function(){
 	$('nav > .5').click(function() {
 		window.open('https://www.linkedin.com/in/fionn-o-connor-a117071b7/', '_blank');
 	});
+	$('#specCompProto .image').click(function() {
+		window.open('https://github.com/outInsideOut/chadPiHazing', '_blank');
+	});
 	$('#ChadPi .image').click(function() {
 		window.open('https://github.com/outInsideOut/chadPiHazing', '_blank');
 	});

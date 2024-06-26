@@ -208,7 +208,7 @@ header nav h3:hover {
 	left: calc(50% - 10rem);
 }
 
-#SpectralCompressor .image {
+#specCompProto .image {
 	background-image: url(../Assets/compressor_example.png);
 }
 
